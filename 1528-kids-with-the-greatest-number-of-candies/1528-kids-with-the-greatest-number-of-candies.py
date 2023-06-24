@@ -3,15 +3,8 @@ class Solution:
         result = []
         
         for i in range(len(candies)):
-            sum = candies[i] + extraCandies
-            print(sum)
-            if sum >= max(candies):
+            if candies[i] + extraCandies >= max(candies):
                 result.append(True)
-                print(".")
             else:
-                print(result)
                 result.append(False)
-                print(result)
-                print(",")
-        print(result)
         return result
