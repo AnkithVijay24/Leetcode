@@ -8,5 +8,5 @@ class Solution:
                 length = 0
                 while n+length in res:
                     length+=1
-                longest = max(length, longest)
+                longest = max(longest, length)
         return longest
